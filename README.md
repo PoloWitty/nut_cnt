@@ -41,7 +41,7 @@ nut num: 12
   - 面积下阈值和上阈值依据控制台输出的当前实验条件下的所有内轮廓面积大小进行选取（不同相机距离、腐蚀核大小等条件下螺母内轮廓大小并不一样）
 - 基本就是调参，参数并不是很好调，可能需要消耗些时间
 - 在结果图像中将以灰色显示出螺母内轮廓
-- 如果可以的话，尽可能减少粘连，比较强的粘连实在无法处理
+- 如果可以的话，尽可能减少粘连，比较强的粘连实在无法处理（本算法理论上如果全部是螺母的话不受粘连影响，但是实际上如果豆子之间粘连过强的话还是会受影响）
 
 
 
@@ -49,7 +49,7 @@ nut num: 12
 
 这个只是一个简单的调用了opencv的测试demo，后续还需自行整合
 
-countour函数改自[FreshJesh5/Suzuki-Algorithm (github.com)](https://github.com/FreshJesh5/Suzuki-Algorithm)，具体见coutour.cpp
+contour函数改自[FreshJesh5/Suzuki-Algorithm (github.com)](https://github.com/FreshJesh5/Suzuki-Algorithm)，具体见contour.cpp
 
 
 
