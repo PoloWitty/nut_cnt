@@ -47,7 +47,7 @@ nut num: 12
 
 ## 实现细节
 
-这个只是一个简单的调用了opencv的测试demo，后续还需自行整合
+这个只是一个简单的调用了opencv的测试demo，后续还需自行整合，图像处理主函数见[opencv_test.cpp](https://github.com/PoloWitty/nut_cnt/blob/0d37205b10d725d46f3d339c1b4d8e3534ef4770/opencv_test.cpp#L20)
 
 contour函数改自[FreshJesh5/Suzuki-Algorithm (github.com)](https://github.com/FreshJesh5/Suzuki-Algorithm)，具体见contour.cpp
 
